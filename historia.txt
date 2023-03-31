@@ -6,3 +6,5 @@ viendo el curso de platzy
 Se eliminaron mis saltos de linea
 
 modificamos el index y los estilos con margenes
+
+aumentamos un nuevo parrafo y cambiamos el tipo de letra

@@ -14,3 +14,7 @@ body{
 	font-size: 25px;
 	color: orange;
 }
+
+.container p{
+	font-family: Courier;	
+}
