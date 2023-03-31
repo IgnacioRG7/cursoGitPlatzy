@@ -1,5 +1,16 @@
 body{
-	color: orange;
-	font-family: 'Arial';
+	font-family: 'Helvetica';
 	text-align: center;
+}
+.container{
+	width: 70%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: justify;
+	margin: 0 auto;
+}
+.container h2{
+	text-align: center;
+	font-size: 25px;
+	color: orange;
 }
