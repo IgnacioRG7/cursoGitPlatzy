@@ -4,5 +4,4 @@ vivo en la paz
 
 viendo el curso de platzy
 Se eliminaron mis saltos de linea
-
-creamos la pagina de html y sus estilos
+html css
