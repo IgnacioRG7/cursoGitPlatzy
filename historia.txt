@@ -1,6 +1,6 @@
 Esta es la historia de rojas nestor ignacio
 tengo 25 anios
-vivo en la paz
+vivo en la paz 
 
 viendo el curso de platzy
 Se eliminaron mis saltos de linea
@@ -10,3 +10,6 @@ modificamos el index y los estilos con margenes
 aumentamos un nuevo parrafo y cambiamos el tipo de letra
 
 cremos dos ramas nuevas a parte de cabecera son header y footer
+
+
+mi nombre es nestor guarachi correo igna... commit desde la apk
