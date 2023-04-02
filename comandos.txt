@@ -151,7 +151,8 @@ git checkout cabecera
 git push origin cabecera
 
 
-
+COMO TRAEMOS UNA NUEVA RAMA QUE ESTE EN EL REPOSITORIO
+git pull origin <rama>
 
 
 
