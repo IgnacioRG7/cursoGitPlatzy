@@ -61,7 +61,9 @@ COMO HACEMOS UN MERGE
 posicionamos el HEAD en master (o donde queramos hacer la fusion)
 y con la rama que seleccionemos se fusionara en master
 creara un nuevo commit de master y de cabecera
-		git merge cabecera		
+		git merge cabecera	
+
+SI TUVIERAMOS CONFLICO AL HACER LOS CAMBIOS DEBEMOS CORREGIRLOS DESDE NUESTRO EDITOR Y LUEGO HACER UN COMMIT	
 
 
 COMO CREAMOS UNA LLAVE SSH EN GIT (llave publica y privada)
