@@ -82,6 +82,7 @@ de donde se trave poniendo git show o git log salimos apretando qq
 
 COMO AGREGAMOS UN ORIGEN REMOTO DE NUESTROS ARCHIVOS (debemos estar dentro del repositorio local que queramos añadir el repo de github online)
 	git remote set-url origin url-ssh-del-repositorio-en-github
+		ooooooooo git remote add origin url-ssh-del-repositorio-en-github
 COMO LO PODEMOS VER
 	git remote
 	para mas detalles
