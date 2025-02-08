@@ -61,7 +61,9 @@ COMO HACEMOS UN MERGE
 posicionamos el HEAD en master (o donde queramos hacer la fusion)
 y con la rama que seleccionemos se fusionara en master
 creara un nuevo commit de master y de cabecera
-		git merge cabecera		
+		git merge cabecera	
+
+SI TUVIERAMOS CONFLICO AL HACER LOS CAMBIOS DEBEMOS CORREGIRLOS DESDE NUESTRO EDITOR Y LUEGO HACER UN COMMIT	
 
 
 COMO CREAMOS UNA LLAVE SSH EN GIT (llave publica y privada)
@@ -80,7 +82,7 @@ de donde se trave poniendo git show o git log salimos apretando qq
 
 		------CUANDO EMPEZAMOS A SUBIR EL REPO A GITHUB-----
 
-COMO AGREGAMOS UN ORIGEN REMOTO DE NUESTROS ARCHIVOS (debemos estar dentro del repositorio local que queramos añadir el repo de github online)
+COMO AGREGAMOS UN ORIGEN REMOTO DE NUESTROS ARCHIVOS (debemos estar dentro del repositorio local que queramos aÃ±adir el repo de github online)
 	git remote set-url origin url-ssh-del-repositorio-en-github
 		ooooooooo git remote add origin url-ssh-del-repositorio-en-github
 COMO LO PODEMOS VER
@@ -157,6 +159,16 @@ git pull origin <rama>
 
 
 
+
+
+EN UN ENTORNO PROFESIONAL SE BLOQUEA LA RAMA MASTER
+
+PULL REQUEST
+si imaginamos que tenemos un error creamos una rama
+fix-typo
+ahi arreglamos los errores
+DESDE GITHHUB CREAMOS UN PULL REQUEST
+Y SELECCIONAMOS DOS RAMAS QUE QUEREMOS COMPARAR
 
 
 

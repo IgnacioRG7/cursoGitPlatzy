@@ -1,0 +1,226 @@
+PARA CONTRIBUIR A UNA PROYECTO RECORDAR QUE:
+
+git - es un control - manejador de versiones que te permite registrar cada cambio que se realiza el codigo fuente que tu tengas
+basicamente lo que te hace es un historico de todos los cambios que hicieron los desarrolladores en un proyecto cada linea cada caracter asi.
+
+github - es un sitio donde puedes hospedar el codigo donde puedes alojar tu codigo es basicamente donde puedes hospedar ese proyecto con el control de versiones que es git
+
+hay sitios que github nos recomienda para que nosotros podamos ir a hacer pullrequest y ayudar que basicamente estos proyectos pertenecen a organizaciones gubernamentales etc tambien los proyectos los podriamos filtrar por tema o lenguaje que queramos los links son:
+
+https://forgoodfirstissue.github.com/
+https://goodfirstissue.dev/
+https://goodfirstissues.com/
+
+en general se busca issues para poder arreglarlas 
+
+generalmente cuando queremos contribuir a un proyecto que por defecto podria ser grande podriamos ver en el repositorio que tiene un CONTRIBUTING.md que es donde nos indica que pasos deberiamos seguir que test deberiamos hacer etc etc
+
+
+----
+para clonar un proyecto podriamos hacerlo mediante https
+que de esa manera lo unico que nos pediria es usuario y contraseña
+y otra que puede ser mejor que es por ssh
+
+para clonar podemos hacer
+	git clone <link-repo>
+con esto descargaria todos los historicos con todos los commits todas las ramas y todo
+
+lo ideal si queremos contribuir no necesitamos exactamente todo el historico asi solo necesitariamos simplemente descargar el historico hasta el ultimo commit
+	git clone <link-repo> --depth=1
+
+una vez que clonamos podriamos entrar al directorio
+luego ya empezar a modificar el cambio que queramos luego los comandos que tendriamos que hacer
+
+
+git add <archivoModificado>
+
+git commit --message "Fix REadme Change styles of readme"
+
+git push -u origin main <- si intentamos esto nos saldra error porque no tenemos esos permisos para hacer cambios a el archivo que esta en remoto
+
+PARA PODER CONTRIBUIR LO QUE TENDRIAMOS QUE HACER ES UN
+->FORK<-  seria como tenedor ahaha
+que basicamente es una bifurcacion es como que vamos a hacer una fotocopia de ese repositorio
+
+
+pero clonarlo es diferente a un fork 
+el fork seria una copia total del repo y cambiar quien es el dueño
+el clone seria copiar con los mismos permisos y todo y obtener el historico toda esa vaina
+
+luego de hacer el fork y fotocopiarse el proyecto entonces podrias hacer un clone
+
+git clone <link-repo>
+o tambien se puede indicar la carpeta
+git clone <link-repo> nameCarpetaRepo
+
+si hacemos git remote --verbose
+ahi podremos ver los repositorios remotos pero veremos solo el origen remoto de nosotros no del que fotocopiamos
+
+necesitamos el del que fotocopiamos para que por si cualquier motivo existen cambios en ese repo que nosotros queramos entonces podriamos hacer
+
+git fetch <nombredelaramaremotafotocopiada>
+git pull
+
+pero de momento no podemos ya que no lo tenemos 
+
+para traer ese repositorio remoto del fotocopiado entonces.
+ -> git remote add <nombre> <link-repo-copiado>
+
+ Nota: se puede tener mas de 1 repositorio remoto
+
+para poder ver los repositorios
+git remote --verbose
+o
+git remote -v
+
+generalmente el nombre que se le da al repo remoto copiado al cual queremos hacer una pr es upstream
+
+bueno una vez que tenemos el repositorio remoto el nuestro con el fork y el otro remoto que seria al que queremos contribuir y luego de que hallamos echo los cambios en los archivos que hubieramos modificado entonces el proceso es el siguiente:
+
+crear una rama nueva y cambiarnos ahi
+git switch para cambiar de rama
+git switch -c  para crearla y cambiarnos
+git switch -c <nombre de la rama con cambios>
+
+
+hacer el commit correspondiente (esto se podria buscar como se estan escribiendo los commits que generalmente es el verbo el archivo y una descripcion corta)
+
+git commit -m "Add discernible labels for navbar"
+
+una vez echo eso ya tendremos que publicar la rama
+
+git push origin <nombre de la rama con cambios>
+
+basicamente donde podriamos publicar en en nuestra no en el remoto del que fotocopiamos
+
+luego de eso si lo hacemos con vscode nos detectara si queremos hacer una PR porque esta detectando que estamos trabajando en un repo con un upstream y detecta que queremos hacer una PR 
+
+donde si deberiamos hacer este tipo de cosas es en nuestro github en la web que ahi tambien nos saldra en nuestro fork hacer una pr a la de nuestro upstream
+lo recomendado es en el github
+cuando le demos a crear la Pull Request entonces nos saldra las ramas que queramos hacer esa PR
+y lo que tendremos que añadir en la descripcion seria Imagenes o Videos pero que sean muy explicativos y cortas
+
+Si por buena pr que hubieramos echo nos la hubieran aceptado nos saldra en el github eliminar esa rama que creamos para la PR
+entonces lo que tendriamos que hacer es desde el github eliminar esa rama con el boton que nos salio
+luego en local
+
+git switch main
+git fetch <- con esto eliminaria la rama que creamos
+
+y ahora si vamos a github y vemos nuestro fork entonces nos saldra un mensaje que nos avisara que nuestra rama esta ramas atras de la rama original que es de la del upstream
+
+entonces desde el github se podria hacer Sync fork y update branch 
+
+si quisieramos hacer la misma accion ya en local entonces deberiamos traernos los cambios de la rama del upstream
+
+git pull upstream main
+asi nos traeriamos los cambios en la pr que enviamos
+
+y ya para actualizar la remota nuestra remota
+git push -u origin main
+
+
+nota: git fetch trae los cambios pero sin fusionarlos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
